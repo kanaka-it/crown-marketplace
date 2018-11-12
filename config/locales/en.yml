@@ -37,6 +37,17 @@ en:
               inclusion: Select yes if you want an agency to supply the worker
   common:
     submit: Continue
+  error_pages:
+    internal_server_error:
+      detail: If you are the application owner check the logs for more information.
+      title: We’re sorry, but something went wrong
+    not_found:
+      detail_1: If you typed the web address, check it is correct.
+      detail_2: If you pasted the web address, check you copied the entire address.
+      title: Page not found
+    unprocessable_entity:
+      detail: Maybe you tried to change something you didn’t have access to.
+      title: The change you wanted was rejected
   errors:
     format: "%{message}"
     messages:

@@ -34,6 +34,7 @@ gem 'geocoder'
 gem 'activerecord-postgis-adapter'
 gem 'uk_postcode'
 gem 'axlsx', github: 'randym/axlsx', branch: 'release-3.0.0'
+gem 'gakubuchi'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
